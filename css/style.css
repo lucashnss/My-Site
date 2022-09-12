@@ -1,0 +1,225 @@
+* {
+    color:inherit;
+}
+
+html, body{
+    font-size: 25px;
+    margin: 0;
+    background-color: #CAF0F8;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Oswald', sans-serif;
+}
+
+h1, h2 {
+    color: #8ecae6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.1em;
+    color: #caf0f8;
+    transition-duration: 0.5s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    background-color: #023047;
+    color: #8ecae6;
+    align-items: center;
+    justify-content:flex-end;
+    font-size: 1rem;
+    row-gap: 3rem;
+    z-index: 1;
+}
+
+.about {
+    margin-right: 3rem; 
+}
+
+.projects {
+    margin-right: 3rem;
+}
+
+.contact {
+    margin-right: 3rem;
+}
+
+.menu {
+    position: relative;
+    padding-bottom: 5rem;
+    padding-right: 8rem;
+    height: 70vh;
+
+}
+
+.photo {
+    border: 5px solid #023047;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+
+#profile_infos {
+    position: absolute;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    bottom: 10%;
+    right: 6%;   
+    font-size: 0.8rem;
+}
+
+
+.titles{
+    border: solid 2px #000;
+    background-color: #023047;
+    left: 10%
+}
+
+.section {
+    height: 120vh;
+    position: relative;
+} 
+
+.section p{
+    font-size: 0.8rem ;
+}
+
+.blocks{
+    border: 2px solid #8d99ae;
+    color: #8ecae6;
+    background-color: #023047;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.blocks h3 {
+    text-align: center;
+}
+
+.blocks p{
+    text-align:justify;
+}
+
+#main_life {
+    margin-top: 4.5%;
+    margin-left: 10%;
+    width: 35% ;
+    height: 38%;
+}
+
+#hobbies {
+    position: absolute;
+    width: 35%;
+    left: 60%;
+    bottom: 40%;
+    height: 38%;
+}
+
+#courses{
+    position: absolute;
+    left:35%;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+#courses ul{
+    padding: 0;
+}
+
+.section img{
+    border: 1px solid#6c757d;
+    margin-top: 5% ;
+    margin-left: 7%;
+    width: 25%;
+    height: 20%
+}
+
+#web {
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 25% ;
+    height: 40%;
+}
+
+#latex {
+    width: 25%;
+    position: absolute;
+    left: 38%;
+    bottom: 44%;
+    height: 40%;
+    top:21%;
+}
+
+#artificial_intelligence {
+    position: absolute;
+    width:25%;
+    left: 70%;
+    bottom: 44%;
+    height:40%;
+    top: 21%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: line;
+    height: 80vh;
+    position: relative;
+    flex-direction: row;
+    background-color: #000;
+    color:#8ecae6;
+}
+
+.blocks2{
+    width: 30%;
+    margin-right:2%;
+    margin-top:10%;
+    text-align: center;
+}
+
+
+#title_footer {
+    position: absolute;
+    left: 43%;
+    top:5%;
+    color:#caf0f8;
+}
+
+
+div#social_networks img{
+    width:50px;
+    margin:10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #6c757d;
+    box-sizing: border-box;
+}
+
+div#social_networks img:hover {
+    border: 2px solid #f5f3f4;
+    transform: translate(-3px,-3px);
+    box-shadow: 5px 5px 10px #000;
+    transition: transform .3s, border 1s;
+}

@@ -1,0 +1,113 @@
+html, body {
+    font-size: 16px;
+}
+
+.photo {
+    width:200px;
+    height:200px;
+    margin-left: 8rem;
+}
+
+#profile_infos {
+    position: absolute;
+    right: 24%;
+}
+
+.section {
+    height: 150vh;
+}
+
+#main_life{
+    width: 60%;
+    height: 22%;
+    margin-top: 7%;
+    margin-left:18%;
+}
+
+#hobbies {
+    width:50%;
+    height: 22%;
+    top: 38%;
+    left:22%;
+
+}
+
+#courses {
+    top:63%;
+    left: 0.5%;
+    height: 25%;
+}
+
+#courses p{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#projects {
+    height: 150vh;
+
+}
+
+#web {
+    margin-left: 12%;
+    height: 28%;
+}
+
+.section img{
+    width:40%;
+    height:15%
+}
+#my_site{
+    position:absolute;
+    top:13%;
+    right:6%;
+}
+
+#latex {
+    left:8%;
+    width: 34%;
+    height: 30%;
+    top: 40%;
+}
+
+#overleaf {
+    margin-top: 85%;
+}
+
+#artificial_intelligence{
+    left:55%;
+    height: 30%;
+    width:30%;
+    top:40%;
+}
+
+
+.footer {
+    height: 100vh;
+}
+#title_footer {
+    top: 2%;
+}
+
+.blocks2 {
+    margin-top: 15%;
+}
+
+#contact_me {
+    margin-left: 10%;
+}
+
+.form textarea{
+    margin-left: 0;
+}
+
+#infos {
+    margin-right: 3%;
+}
+
+#social_networks {
+    margin-top:80%;
+}
+
+
+

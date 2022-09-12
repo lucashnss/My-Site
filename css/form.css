@@ -1,0 +1,49 @@
+
+.form{
+    font-size: 0.8rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+    width: 30%;
+    height: 1rem;
+}
+
+.form label {
+    line-height: 0.2;
+    margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+    font:inherit;
+    padding:0.1rem;
+    margin-bottom: 0.1rem;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.form input{
+    width: 9rem;
+}
+.form textarea{
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    display:block;
+    height: 5rem;
+    width: 8.5rem;
+}
+
+
+.form button{
+    border-radius: 8px;
+    width: 9rem;
+    height: 1.3rem;
+
+}
+
+#message {
+    font-size: 0.8rem;
+}
