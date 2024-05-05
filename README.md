@@ -1,2 +1,2 @@
 # My-Site
-Site básico estilo portfólio com HTML e Css
+Site básico estilo portfólio com HTML e CSS
